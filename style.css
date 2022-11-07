@@ -13,6 +13,19 @@ background: rgba(0, 128, 320, 0.3);
 }
 
 
+.background2{
+background: rgba(117, 128, 320, 454);
+
+}
+
+
+
+
+
+
+
+
+
 .sizefont {
   font-size: 200%;
   text-align:center;
@@ -48,6 +61,57 @@ border-color: red;
 img1 {
   background-image: url("https://i.pinimg.com/originals/35/ed/52/35ed5299d785a29b9436aeb39b72c75b.jpg") ;
 }
+
+
+
+
+.font1 {
+  font-family: sans-serif;
+text-decoration-line: underline; 
+    text-shadow: 2px 2px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.fontli {
+    text-align: center;
+  font-size: 50px;
+}
+
+.font11 {
+  font-family: "Sofia", sans-serif;
+    text-transform: uppercase;
+}
+
+
+.font22 {
+   font-family: "Trirong", serif;
+  font-size: 45px;
+}
+
+
+
+.font33 {
+   font-family: 'Arbutus';
+  font-size: 48px;
+}
+
+.font44 {
+   font-family: 'Athiti';
+}
+
+
+.font55 {
+    font-family: 'BhuTuka Expanded One';
+  letter-spacing: -2px;
+
+}
+
+
+
+
+
+
 
 
 
