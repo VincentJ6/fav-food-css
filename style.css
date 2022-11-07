@@ -108,7 +108,10 @@ text-decoration-line: underline;
 }
 
 
-
+.fontsmall {
+  font-size: 20px;
+    font-family: 'Cedarville Cursive';
+}
 
 
 
