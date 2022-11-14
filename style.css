@@ -113,7 +113,10 @@ text-decoration-line: underline;
     font-family: 'Cedarville Cursive';
 }
 
-
+.fontsmall2 {
+  font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif;
+}
 
 
 a:link, a:visited {

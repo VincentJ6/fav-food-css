@@ -78,6 +78,15 @@ text-decoration-line: underline;
 }
 
 
+
+
+
+.fontsmall2 {
+  font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
 a:hover {
   background-color: rebeccapurple;
   color: yellow;
