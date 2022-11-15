@@ -1,4 +1,46 @@
 
+a:link, a:visited {
+  color: black;
+  border: 2px solid green;
+  text-align: center;
+}
+
+a:hover {
+    font-size: 20px;
+}
+
+
+
+
+
+.lu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e8e8e8;
+  background-color: yellow;
+
+}
+
+.il {
+  float: left;
+}
+
+.il {
+  display: block;
+  color: #1e00ff;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+.il a:hover:not(.active) {
+  background-color:paleturquoise;
+}
+
+
+
 html, body {
   height: 100%;
   width: 100%;
@@ -87,13 +129,24 @@ text-decoration-line: underline;
 }
 
 
-a:hover {
-  background-color: rebeccapurple;
-  color: yellow;
 
 
-<span style="cursor: pointer">pointer</span><br>
 
-  a:hover {
-    font-family: 'Cedarville Cursive';
-  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
