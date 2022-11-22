@@ -1,0 +1,110 @@
+.background{
+background: orange;
+
+}
+
+
+
+a:link, a:visited {
+  color: black;
+  border: 2px solid green;
+  text-align: center;
+}
+
+a:hover {
+    font-size: 20px;
+}
+
+
+
+
+
+.lu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e8e8e8;
+  background-color: yellow;
+
+}
+
+.il {
+  float: left;
+}
+
+.il {
+  display: block;
+  color: #1e00ff;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+.il a:hover:not(.active) {
+  background-color:paleturquoise;
+}
+
+
+div.gallery:hover {
+  border: 1px solid red;
+}
+
+.pic1:hover{
+  filter:grayscale(100%);
+}
+
+.pic2:hover{
+  filter:opacity(.5)
+}
+.pic3:hover{
+  filter:drop-shadow(8px 8px 10px yellow)
+}
+.pic4:hover{
+  filter:blur(3px)
+}
+.pic5:hover{
+  filter:contrast(40%)
+}
+
+
+
+
+div.gallery img {
+  width: 250px;
+  height: 250px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 70.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 200%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
